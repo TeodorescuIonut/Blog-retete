@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add a recipe</title>
+</head>
+<body>
+	<form action="recipe.php" method="post" enctype="multipart/form-data">
+		<p>
+		<label> Nume reteta</label>
+		<br>
+		<input type="text" name="Nume_reteta">
+		</p>
+		<p>
+		<label> Descriere Reteta</label>
+		<br>
+		<input type="text" name="descriere">
+		</p>
+		<p>
+		<label> Timp preparare</label>
+		<br>
+		<input type="number" name="timp">
+		</p>
+		<p>
+		<label> Ingrediente</label>
+		<br>
+		<input type="text" name="ingrediente">
+		</p>
+		<p>
+		<label> Instructiuni</label>
+		<br>
+		<input type="text" name="instructiuni">
+		</p>
+		<p>Adaugati o poza <input type="file" name="img" value="Upload" multiple >
+		<br>
+  		</p>
+  		<p>
+		<label> Categorie</label>
+		<br>
+		<input type="text" name="categorie">
+		</p>
+  		<p>
+		<label> Numar portii</label>
+		<br>
+		<input type="number" name="numar_portii">
+		</p>
+		<button type="submit" name="submit_image" >Register</button>
+	</form>
+</body>
+</html>

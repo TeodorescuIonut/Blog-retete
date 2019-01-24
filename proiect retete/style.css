@@ -1,0 +1,182 @@
+
+ body {
+        padding-top: 54px;
+        background: #f8f8f8;
+      }
+ /*@media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }*/
+.bg-dark{
+	background-color: #1699dd!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	margin-right: .5rem;
+    margin-left: .5rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #fff;
+	position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover:after{
+	content:"";
+	display: block;
+	position: absolute;
+	width:100%;
+	height: 2px;
+	background-color: #fff;
+	left:0;
+	bottom: 3px;
+}
+.white-bg{
+	background: #fff;
+}
+
+.img-thumnail{
+		float: 	left;	
+		margin: 5px; 	
+}
+.squery{
+	margin-bottom: 20px;
+	
+}
+.reteta {
+	padding: 50px;
+	border-bottom: 1px solid #efefef;
+}
+
+.reteta p {
+	margin: 0;
+}
+.reteta h1 {
+	line-height: 0.9;
+	margin-bottom: 20px;;
+}
+
+.imagine-reteta-lista {
+	width: 230px;
+	margin-right: 20px;
+}
+
+.flex {
+	display: flex;
+}
+
+.search-form { display: flex; justify-content:  center; margin-top: 50px;}
+.search-form  input{
+	width: 450px;
+    font-size: 24px;
+    font-weight: 100;
+	padding: 13px 20px;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url('pics/hero.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.jumbotron {
+	background: transparent;
+	color: #fff;
+	padding: 6rem 2rem;
+}
+.hero-vegan{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url('pics/vegan.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.hero-pork{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url('pics/pig.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.hero-fish{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url('pics/fish.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.hero-chicken{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url('pics/chicken.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.detaliu h4{
+	font-size: 28px;
+    margin-top: 20px; 
+}
+.detaliu p{
+      font-size: 18px;
+}
+.jumbotron h1 {
+	font-weight: 600;
+}
+
+form.narrow {
+	padding: 50px 100px;
+	margin-bottom: 50px;
+}
+.heading{
+	height: 200px;
+    padding: 85px;
+}
+.logo{
+	width: 50px;
+    height: 50px;
+}
+.title-detaliu{
+	margin: 40px;
+	text-align: center;
+}
+
+
+.reteta button:hover{
+	background-color: #178ac6;
+}
+.reteta h1{
+	font-size: 32px;
+}
+.reteta p{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#insert{
+	margin-left: 5px !important;
+	margin-top: 10px;
+	background-color: #1699dd!important;
+}
+#insert:hover{
+	background-color: #178ac6!important;
+}
+.back button{
+	margin: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #1699dd!important;
+}
+.reteta button:nth-child(2){
+	background-color: #dc3545!important;
+}
+.reteta button{
+	margin-top: 10px;
+	margin-left: 5px !important;
+	background-color: #1699dd;
+}
+.delete{
+	background-color: #dc3545!important;
+}
+.delete:hover{
+	background-color: #df1c2f!important;
+}
