@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/CursWebNov2017/php/exercitiii/proiect%20rent/proiect retete/recipe-chicken.php"">Chicken recipes</a>
+              <a class="nav-link" href="http://localhost/CursWebNov2017/Proiect%20retete/proiect retete/recipe-chicken.php"">Chicken recipes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="http://localhost/CursWebNov2017/Proiect%20retete/proiect retete/recipe-pork.php">Pork recipes</a>
@@ -20,7 +20,7 @@
               <a class="nav-link" href="http://localhost/CursWebNov2017/Proiect%20retete/proiect retete/recipe-vegan.php">Vegan recipes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/CursWebNov2017/Proiect%20retete/proiecteretete/recipe.php">Add recipes</a>
+              <a class="nav-link" href="http://localhost/CursWebNov2017/Proiect%20retete/proiect retete/recipe.php">Add recipes</a>
             </li>
             
             <li class="nav-item">
